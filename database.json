@@ -1,0 +1,75 @@
+{
+  "kits": [
+    {
+      "id": 1,
+      "title": "Nature Mandala",
+      "description": "round floral pattern",
+      "pattern": "https://as2.ftcdn.net/v2/jpg/05/44/54/29/1000_F_544542990_Sji7oRefP43PIgUX3ZJfYPWlKh4aoeK4.jpg",
+      "colorSchemeId": 1,
+      "userId": 1,
+      "notes": "This is a traditional embroidery design from Mexico",
+      "skillLevelId": 1,
+      "completedPhoto": ""
+    }
+  ],
+  "strandCounts": [
+    {
+      "id": 1,
+      "dominant": 4,
+      "secondary": 2,
+      "tertiary": 3,
+      "kitId": 1
+    }
+  ],
+  "colorSchemes": [
+    {
+      "id": 1,
+      "title": "Honey-Rae buttons",
+      "color1": "#e14617",
+      "color2": "#0097d7",
+      "color3": "#71a500"
+    }
+  ],
+  "kitStitches": [
+    {
+      "id": 1,
+      "stitchId": 1,
+      "kitId": 1
+    }
+  ],
+  "stitches": [
+    {
+      "id": 1,
+      "type": "stem"
+    }
+  ],
+  "kitFavorite": [
+    {
+      "id": 1,
+      "userId": 1,
+      "kitId": 1
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Ruby Kendrick",
+      "email": "kendrick.ruby@example.com",
+      "skillLevel": "beginner"
+    }
+  ],
+  "skillLevels": [
+    {
+      "id": 1,
+      "level": "beginner"
+    },
+    {
+      "id": 2,
+      "level": "intermediate"
+    },
+    {
+      "id": 1,
+      "level": "advanced"
+    }
+  ]
+}
