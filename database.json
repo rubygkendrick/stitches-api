@@ -5,29 +5,16 @@
       "title": "Nature Mandala",
       "description": "round floral pattern",
       "pattern": "https://as2.ftcdn.net/v2/jpg/05/44/54/29/1000_F_544542990_Sji7oRefP43PIgUX3ZJfYPWlKh4aoeK4.jpg",
-      "colorSchemeId": 1,
+      "color1": "#8549a7",
+      "color2": "#c785ec",
+      "color3": "#deb7ff",
+      "strandDominant": 4,
+      "strandSecondary": 2,
+      "strandTertiary": 0,
       "userId": 1,
       "notes": "This is a traditional embroidery design from Mexico",
       "skillLevelId": 1,
       "completedPhoto": ""
-    }
-  ],
-  "strandCounts": [
-    {
-      "id": 1,
-      "dominant": 4,
-      "secondary": 2,
-      "tertiary": 3,
-      "kitId": 1
-    }
-  ],
-  "colorSchemes": [
-    {
-      "id": 1,
-      "title": "Honey-Rae buttons",
-      "color1": "#e14617",
-      "color2": "#0097d7",
-      "color3": "#71a500"
     }
   ],
   "kitStitches": [
@@ -35,12 +22,65 @@
       "id": 1,
       "stitchId": 1,
       "kitId": 1
+    },
+    {
+      "id": 1,
+      "stitchId": 3,
+      "kitId": 1
     }
   ],
   "stitches": [
     {
       "id": 1,
       "type": "stem"
+    },
+    {
+      "id": 2,
+      "type": "backstitch"
+    },
+    {
+      "id": 3,
+      "type": "satin"
+    },
+    {
+      "id": 4,
+      "type": "chain"
+    },
+    {
+      "id": 5,
+      "type": "french knot"
+    },
+    {
+      "id": 6,
+      "type": "cross stitch"
+    },
+    {
+      "id": 7,
+      "type": "running"
+    },
+    {
+      "id": 8,
+      "type": "fishbone"
+    },
+    {
+      "id": 9,
+      "type": "lazy daisy"
+    },
+    {
+      "id": 10,
+      "type": "feather"
+    },
+    {
+      "id": 11,
+      "type": "long and short"
+    },
+    {
+      "id": 12,
+      "type": "zig zag"
+    },
+    {
+      "id": 13,
+      "type": "other"
     }
   ],
   "kitFavorite": [
@@ -55,7 +95,13 @@
       "id": 1,
       "fullName": "Ruby Kendrick",
       "email": "kendrick.ruby@example.com",
-      "skillLevel": "beginner"
+      "skillLevelId": 1
+    },
+    {
+      "email": "testing@test.com",
+      "fullName": "Testy Testerson",
+      "skillLevelId": 1,
+      "id": 2
     }
   ],
   "skillLevels": [
