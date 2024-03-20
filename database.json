@@ -2,31 +2,166 @@
   "kits": [
     {
       "id": 1,
-      "title": "Nature Mandala",
-      "description": "round floral pattern",
+      "title": "Blue Whale",
+      "description": "pattern of a whale",
+      "pattern": "https://i.pinimg.com/564x/bd/ab/f8/bdabf8ee97e2b23bf67af37caaaed640.jpg",
+      "color1": "#8549a7",
+      "color2": "#c785ec",
+      "color3": "#deb7ff",
+      "strandDominant": 4,
+      "strandSecondary": 2,
+      "strandTertiary": "",
+      "userId": 2,
+      "notes": "These are the notes on how to stitch this whale!",
+      "skillLevelId": 1,
+      "completedPhoto": "https://i.etsystatic.com/22069217/r/il/1babf8/2383100914/il_1588xN.2383100914_e6lj.jpg"
+    },
+    {
+      "title": "Space!",
+      "description": "This is a description about an embroidery kit about SPACE ",
+      "pattern": "https://i.pinimg.com/564x/8d/96/ea/8d96ea4982172fe21a4059cb30b3f574.jpg",
+      "color1": "#deb7ff",
+      "color2": "#634087",
+      "color3": "#a86add",
+      "strandDominant": 3,
+      "strandSecondary": null,
+      "strandTertiary": null,
+      "userId": 1,
+      "notes": "HERE ARE SOME NOTES ABOUT THIS SPACE KIT AND HOW TO IMPLEMENT IT!",
+      "skillLevelId": 1,
+      "completedPhoto": "https://i.pinimg.com/564x/61/cd/02/61cd02571709394e6cab95cee632a005.jpg",
+      "id": 2
+    },
+    {
+      "title": "Traditional Mexican Floral",
+      "description": "This is a traditional embroidery design from Mexico. ",
       "pattern": "https://as2.ftcdn.net/v2/jpg/05/44/54/29/1000_F_544542990_Sji7oRefP43PIgUX3ZJfYPWlKh4aoeK4.jpg",
       "color1": "#8549a7",
       "color2": "#c785ec",
       "color3": "#deb7ff",
       "strandDominant": 4,
       "strandSecondary": 2,
-      "strandTertiary": 0,
+      "strandTertiary": null,
       "userId": 1,
-      "notes": "This is a traditional embroidery design from Mexico",
+      "notes": "HERE ARE SOME NOTES ON WHAT STRAND COUNTS GO WHERE AND WHAT STITCHES GO WHERE AND WHAT COLORS GO WHERE! ",
       "skillLevelId": 1,
-      "completedPhoto": ""
+      "completedPhoto": "https://t3.ftcdn.net/jpg/01/59/09/78/360_F_159097812_eiVQyQwxGwtxsrRWBPbA0jOHqSF0ZGk4.jpg",
+      "id": 4
+    },
+    {
+      "title": "Celestial Pattern",
+      "description": "pattern with moon, sun, and stars",
+      "pattern": "https://i.pinimg.com/564x/b7/de/32/b7de3201b8f55d89c2b1e0d606ccfd7f.jpg",
+      "color1": "#blu3",
+      "color2": "#Blu3r",
+      "color3": "",
+      "strandDominant": 3,
+      "strandSecondary": "",
+      "strandTertiary": "",
+      "userId": 2,
+      "notes": "celestial kit with moon and stars notes are here!",
+      "skillLevelId": 2,
+      "completedPhoto": "https://i.pinimg.com/originals/39/14/ea/3914ea78ac6bd2bdfad06a02809b73dd.jpg",
+      "id": 5
+    },
+    {
+      "title": "Goldfish Pattern",
+      "description": "this is the description about a goldfish embroidery kit ",
+      "pattern": "https://m.media-amazon.com/images/I/71S4hrbvEML._AC_SX679_.jpg",
+      "color1": "#orang3",
+      "color2": "#blu3",
+      "color3": "#ffffff",
+      "strandDominant": 3,
+      "strandSecondary": 2,
+      "strandTertiary": 1,
+      "userId": 2,
+      "notes": "these are the notes about a goldfish embroidery kit ",
+      "skillLevelId": 2,
+      "completedPhoto": "https://m.media-amazon.com/images/I/61okOy0WP6L._AC_SL1417_.jpg",
+      "id": 6
+    },
+    {
+      "title": "Butterfly Pattern",
+      "description": "here is a description of this butterfly kit ",
+      "pattern": "https://m.media-amazon.com/images/I/81KBG-0cYsL._AC_SX679_.jpg",
+      "color1": "#y3ll0w",
+      "color2": "#0rang3",
+      "color3": "#br0wnn",
+      "strandDominant": 3,
+      "strandSecondary": 2,
+      "strandTertiary": 1,
+      "userId": 1,
+      "notes": "these are the notes on how to make this butterfly embroidery kit / what stitches are in what areas/ what strand counts go where ",
+      "skillLevelId": 2,
+      "completedPhoto": "https://m.media-amazon.com/images/I/61uiTuuT9lL._AC_SX679_.jpg",
+      "id": 7
     }
   ],
   "kitStitches": [
     {
       "id": 1,
       "stitchId": 1,
+      "kitId": 4
+    },
+    {
+      "id": 2,
+      "stitchId": 3,
+      "kitId": 4
+    },
+    {
+      "id": 3,
+      "stitchId": 3,
       "kitId": 1
     },
     {
-      "id": 1,
+      "stitchId": 1,
+      "kitId": 1,
+      "id": 4
+    },
+    {
+      "stitchId": 2,
+      "kitId": 1,
+      "id": 6
+    },
+    {
+      "stitchId": 1,
+      "kitId": 2,
+      "id": 7
+    },
+    {
+      "stitchId": 2,
+      "kitId": 2,
+      "id": 5
+    },
+    {
+      "stitchId": 2,
+      "kitId": 5,
+      "id": 9
+    },
+    {
+      "stitchId": 5,
+      "kitId": 5,
+      "id": 10
+    },
+    {
+      "stitchId": 2,
+      "kitId": 6,
+      "id": 11
+    },
+    {
       "stitchId": 3,
-      "kitId": 1
+      "kitId": 6,
+      "id": 12
+    },
+    {
+      "stitchId": 3,
+      "kitId": 7,
+      "id": 13
+    },
+    {
+      "stitchId": 5,
+      "kitId": 7,
+      "id": 14
     }
   ],
   "stitches": [
@@ -85,37 +220,48 @@
   ],
   "kitFavorite": [
     {
-      "id": 1,
+      "userId": 2,
+      "kitId": 4,
+      "id": 2
+    },
+    {
       "userId": 1,
-      "kitId": 1
+      "kitId": 1,
+      "id": 3
     }
   ],
   "users": [
     {
-      "id": 1,
       "fullName": "Ruby Kendrick",
       "email": "kendrick.ruby@example.com",
-      "skillLevelId": 1
+      "skillLevelId": 1,
+      "id": 1
     },
     {
-      "email": "testing@test.com",
       "fullName": "Testy Testerson",
+      "email": "testing@test.com",
       "skillLevelId": 1,
       "id": 2
+    },
+    {
+      "email": "kitFr33k@example.com",
+      "fullName": "User Userton",
+      "skillLevelId": 1,
+      "id": 3
     }
   ],
   "skillLevels": [
     {
       "id": 1,
-      "level": "beginner"
+      "level": "Beginner"
     },
     {
       "id": 2,
-      "level": "intermediate"
+      "level": "Intermediate"
     },
     {
-      "id": 1,
-      "level": "advanced"
+      "id": 3,
+      "level": "Advanced"
     }
   ]
 }
